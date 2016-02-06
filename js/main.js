@@ -140,7 +140,7 @@
 		
 		
 		if (prevPage.length > 0) {
-		var baseUrl = '';
+		var baseUrl = '/Appolo-demo/';
 		var removedBaseUrl = prevPage.replace(baseUrl, '');
 		var prevItem = removedBaseUrl.replace(/\//g, '');
 			console.log('prev page: '+prevItem);
@@ -420,7 +420,7 @@
 			
 			setCookie('appolo_prev_page', window.location.pathname, 1);
 			
-				window.location = '/';
+				window.location = '/Appolo-demo/';
 			
 			
 		});
